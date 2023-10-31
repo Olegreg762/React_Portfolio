@@ -1,42 +1,108 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Create root attribute and set CSS variables */
+:root{
+  --text-color: cornsilk;
+  --img-px-size: 100px;
+}
+/*  Sets base styling for HTML doc */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-left: .15%;
+  
+}
+/*  Styling ofr the body of the web page */
+body {
+  background-color: rgb(53, 52, 52);
+  color: var(--text-color);
+}
+/*  Default styling for images */
+img {
+  opacity: 55%;
+  transition: opacity 1s;
+  max-width:  var(--img-px-size);
+  max-height: var(--img-px-size);
+  min-width: var(--img-px-size);
+  min-height: var(--img-px-size);
+}
+/*  Adds a hover action to images */
+img:hover{
+  opacity: 100%;
+}
+/* Sets the python logo image size */
+#python_logo {
+  min-width: 300px;
+  min-height: 300px;
+} 
+/* Sets solidity logo sizing */
+#solidity_logo{
+  padding-left: 10px;
+  min-width: 1px;
+  min-height: var(--img-px-size);
+  max-width: none;
+  max-height: var(--img-px-size);
+}
+/* Styling for header element */
+header {
+  padding: 2%;
+  text-align: center;
+  color: var(--text-color);
+}
+/* Defines the list styling inside the header and ul */
+header ul li{
+  padding: 2%;
+  padding-bottom: 5%;
+  display: inline-block;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+/* Styling for the h2 header */
+h2{
+  font-size: xx-large;
+}
+/* Applies padding to the top of the work header */
+#work{
+  padding-top: 5%;
+}
+/* Sets the margin on the about paragrap */
+#about_p{
+  margin-left: 3%;
+}
+/* Sets font size for the h3 header */
+h3{
+  font-size: x-large;
+}
+
+/* Styling for a */
+.a{
+  justify-content: center;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: font-size .5s;
+}
+/* Adds hover action to a */
+a:hover{
+  font-size: 110%;
+  text-decoration: none;
+}
+
+.github-link{
+  text-decoration: underline;
+}
+
+/* Base styling ofr article class */
+.article {
+padding-top: 5%;
+padding-bottom: 5%;
+margin-left: 3%;
+}
+/* Footer styling */
+footer{
+  padding-bottom: 2%;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Sets the span styling inside the footer */
+footer span{
+  font-size: 80%;
 }
