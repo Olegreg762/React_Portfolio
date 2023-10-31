@@ -34,7 +34,7 @@ export default function Project() {
         <div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
             <section>
-                {projectRender[currentPage]}
+                {projectRender[currentPage]}<br></br>
             </section>
             <Footer/>
         </div>
