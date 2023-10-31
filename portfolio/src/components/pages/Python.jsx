@@ -1,3 +1,5 @@
+import img from '../../assets/python-logo-only.svg';
+
 export default function Python() {
 
     return (
@@ -5,7 +7,7 @@ export default function Python() {
                 <h3 id="python_h3">Python</h3>
                 {/* <!-- Python logo image with link to Github --> */}
                 <a href="https://github.com/Olegreg762/FintechBootcamp/tree/main/python_homework/PyBank">
-                <img id="python_logo"  src="./resources/images/python-logo-only.svg" alt="python logo"></img>
+                <img id="python_logo"  src={img} alt="python logo"></img>
                 </a>            
                 <p>
                 I have written several programs and scripts in Python.<br></br>

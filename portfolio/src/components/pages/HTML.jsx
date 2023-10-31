@@ -1,3 +1,5 @@
+import img from '../../assets/HTML5_logo_and_wordmark.svg';
+
 export default function HTML() {
 
     return (
@@ -5,7 +7,7 @@ export default function HTML() {
             <h3 id="html_h3">HTML</h3> 
             {/* <!-- HTML logo imgae with Github link --> */}
             <a href="https://olegreg762.github.io/Full_Stack_GroupProject1/">      
-            <img src="./resources/images/HTML5_logo_and_wordmark.svg" alt="html logo"></img>
+            <img src={img} alt="html logo"></img>
             </a> 
             <p>
             Currently pursuing knowledge of HTML.<br></br>
