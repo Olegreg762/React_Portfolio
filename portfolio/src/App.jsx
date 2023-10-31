@@ -1,15 +1,9 @@
-import Nav from './components/Nav';
-import Footer from './components/Footer'
+// import Nav from './components/Nav';
+// import Footer from './components/Footer';
+import Project from './components/Project';
+// import About from './components/pages/About'
 import './App.css'
 
-function App() {
-
-  return (
-      <div>
-        <Nav/>
-        <Footer/>
-      </div>
-  )
-}
+const App = () => <Project/> 
 
 export default App
