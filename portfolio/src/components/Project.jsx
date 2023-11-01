@@ -11,6 +11,7 @@ import Javascript from './pages/Javascript';
 import Python from './pages/Python';
 import SQL from './pages/SQL';
 import Solidity from './pages/Solidity'
+import Header from './Header';
 
 
 export default function Project() {
@@ -32,6 +33,7 @@ export default function Project() {
 
     return(
         <div>
+            <Header/>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
             <section>
                 {projectRender[currentPage]}<br></br>

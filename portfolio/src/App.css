@@ -48,6 +48,21 @@ header {
   text-align: center;
   color: var(--text-color);
 }
+
+nav  {
+  padding: 2%;
+  text-align: center;
+  color: var(--text-color);
+}
+
+nav ul li {
+  padding: 2%;
+  padding-bottom: 5%;
+  display: inline-block;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
 /* Defines the list styling inside the header and ul */
 header ul li{
   padding: 2%;
