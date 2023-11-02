@@ -29,11 +29,7 @@ img {
 img:hover{
   opacity: 100%;
 }
-/* Sets the python logo image size */
-#python_logo {
-  min-width: 300px;
-  min-height: 300px;
-} 
+
 /* Sets solidity logo sizing */
 #solidity_logo{
   padding-left: 10px;
@@ -101,13 +97,13 @@ a:hover{
   font-size: 115%;
   text-decoration: none;
 }
-
+/* Sets action for selected page in nav bar */
 .a-active{
   justify-content: center;
   color: var(--text-color);
   text-decoration: none;
-  font-size: 125% !important;
-  transition: font-size .5s
+  font-size: 130% !important;
+  transition: font-size .5s;
 }
 
 .github-link{
@@ -128,4 +124,39 @@ footer{
 /* Sets the span styling inside the footer */
 footer span{
   font-size: 80%;
+}
+
+/* Style for the form container */
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form input elements */
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the submit button */
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.form button:hover {
+  background-color: #0056b3;
 }
