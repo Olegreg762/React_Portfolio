@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Nav from './Nav';
-// import Header from './Header';
+import Header from './Header';
 import Footer from './Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -11,7 +11,6 @@ import Javascript from './pages/Javascript';
 import Python from './pages/Python';
 import SQL from './pages/SQL';
 import Solidity from './pages/Solidity'
-import Header from './Header';
 
 
 export default function Project() {
