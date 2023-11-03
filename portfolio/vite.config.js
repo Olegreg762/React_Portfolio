@@ -7,5 +7,9 @@ export default defineConfig({
   server: {
     port: 3001,
     open: true
-  }
+build: {
+    rollupOptions: {
+      input: 'src/main.jsx', // Specify main.jsx as your entry point
+    },
+  },
 })
