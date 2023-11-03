@@ -45,21 +45,21 @@ export default function Contact() {
     return (
         <div>
        <form className="form" onSubmit={handleFormSubmit}>
-        <input
+        <textarea
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="Enter Your Email"
         />
-        <input
+        <textarea
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
           placeholder="Enter Your Name"
         />
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}

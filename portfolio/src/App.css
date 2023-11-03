@@ -143,6 +143,17 @@ footer span{
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 3px;
+  text-align: center;
+  white-space: normal;
+}
+
+.form textarea[name="userName"], .form textarea[name="email"]{
+  width: 100%;
+}
+
+.form textarea[name="message"] {
+  height: 100px;
+  width: 100%;
 }
 
 /* Style for the submit button */
