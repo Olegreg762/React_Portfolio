@@ -43,7 +43,7 @@ export default function Contact() {
     };
 
     return (
-        <article>
+        <div>
        <form className="form" onSubmit={handleFormSubmit}>
         <input
           value={email}
@@ -73,6 +73,6 @@ export default function Contact() {
         </div>
       )}
       </form>
-        </article>
+        </div>
     )
 }

@@ -10,7 +10,8 @@ import HTML from './pages/HTML';
 import Javascript from './pages/Javascript';
 import Python from './pages/Python';
 import SQL from './pages/SQL';
-import Solidity from './pages/Solidity'
+import Solidity from './pages/Solidity';
+import Resume from './pages/Resume';
 
 
 export default function Project() {
@@ -25,7 +26,8 @@ export default function Project() {
         "Javascript": <Javascript/>,
         "Python":<Python/>,
         "SQL": <SQL/>,
-        "Solidity": <Solidity/>
+        "Solidity": <Solidity/>,
+        "Resume": <Resume/>
     }
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -34,7 +36,7 @@ export default function Project() {
         <div>
             <Header/>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
-            <section>
+            <section className='container'>
                 {projectRender[currentPage]}<br></br>
             </section>
             <Footer/>
