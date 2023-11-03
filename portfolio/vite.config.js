@@ -7,10 +7,10 @@ export default defineConfig({
   server: {
     port: 3001,
     open: true
-},
-build: {
+  },
+  build: {
     rollupOptions: {
-      input: 'src/main.jsx', 
+      input: 'src/main.jsx',
     },
   },
 })
