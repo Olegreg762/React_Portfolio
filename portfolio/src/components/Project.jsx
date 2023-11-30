@@ -12,6 +12,7 @@ import Python from './pages/Python';
 import SQL from './pages/SQL';
 import Solidity from './pages/Solidity';
 import Resume from './pages/Resume';
+import React from './pages/React';
 
 
 export default function Project() {
@@ -27,6 +28,7 @@ export default function Project() {
         "Python":<Python/>,
         "SQL": <SQL/>,
         "Solidity": <Solidity/>,
+        "React": <React/>,
         "Resume": <Resume/>
     }
 

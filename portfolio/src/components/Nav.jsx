@@ -16,7 +16,8 @@ export default function Nav({currentPage, handlePageChange}) {
             <li><a className={currentPage === 'Javascript' ? 'a-active' : "a"} href="#Javascript" onClick={() => handlePageChange('Javascript')}>Javascript</a></li>
             <li><a className={currentPage === 'CSS' ? 'a-active' : "a"} href="#CSS" onClick={() => handlePageChange('CSS')}>CSS</a></li>
             <li><a className={currentPage === 'HTML' ? 'a-active' : "a"} href="#HTML" onClick={() => handlePageChange('HTML')}>HTML</a></li>
-            <li><a className={currentPage === 'Handlebars' ? 'a-active' : "a"} href="#Handlebars" onClick={() => handlePageChange('Handlebars')}>Handlebars</a></li>    
+            <li><a className={currentPage === 'Handlebars' ? 'a-active' : "a"} href="#Handlebars" onClick={() => handlePageChange('Handlebars')}>Handlebars</a></li>
+            <li><a className={currentPage === 'React' ? 'a-active' : "a"} href="#React" onClick={() => handlePageChange('React')}>React</a></li>    
         </ul>
     </nav>
     );
