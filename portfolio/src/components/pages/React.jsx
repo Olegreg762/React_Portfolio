@@ -11,7 +11,7 @@ export default function React() {
                 </a>            
                 <p>
                 I have gained skills in creating react apps.<br></br>
-                The linked repo is for a library app. It is geared towards teachers with personal libraries <br></br> 
+                The linked repo is for a library app. It is geared towards teachers with personal libraries
                 that they want to allow students borrow the books.
                 </p> 
         </article>
